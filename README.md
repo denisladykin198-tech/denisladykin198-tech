@@ -45,14 +45,4 @@ A web-based tool for learning, visualizing, and procedurally generating fingerin
 
 I also work on procedural world generation, simulation systems, and custom game-development tools.
 
-Some of these experiments include **GNAX**, a procedural 3D-game project, and a custom game engine developed as a separate technical project.
-
-## My approach
-
-I usually begin with architecture, system design, and defining how the individual parts of a project should work together.
-
-I value experimentation, practical results, and understanding how complex systems fit together.
-
----
-
-*Building things, breaking assumptions, and figuring out better ways to make software.*
+Some of these experiments include a procedural 3D-game pet-project and a experimental custom game engine.
