@@ -1,4 +1,4 @@
-### Rust Developer | GameDev | ECS
+### Hi
 
 I'm an independent developer interested in software architecture, game development, and building tools for complex interactive systems.
 
