@@ -1,3 +1,5 @@
+### Rust Developer | GameDev | ECS
+
 I'm an independent developer interested in software architecture, game development, and building tools for complex interactive systems.
 
 My primary language is **Rust**. I mostly work with game-related technologies, experiment with custom tooling, and explore ways to build systems that are both flexible and scalable.
