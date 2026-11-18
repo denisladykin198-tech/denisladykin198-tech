@@ -24,8 +24,6 @@ The editor uses silhouettes drawn from three projections to generate voxel model
 
 **Technologies:** Rust, Bevy, egui, Rhai.
 
-*Work in Progress.*
-
 ### Nebros RS
 A virtual analog synthesizer inspired by Soviet audio equipment (specifically the "Polivoks"). It emulates the imperfections of analog circuitry and offers a flexible architecture for real-time sound processing.
 
@@ -42,6 +40,17 @@ A web-based tool for learning, visualizing, and procedurally generating fingerin
 - **Interactivity:** Features a built-in synthesizer (via the Web Audio API) for auditioning notes, dynamic SVG visualization with scale-degree highlighting, a responsive design, and full localization (RU/EN).
 
 **Technologies:** HTML, CSS, JavaScript, Web Audio API, SVG.
+
+### Three Rings (Три кольца)
+A custom Monopoly-style board game featuring a framework-free, multi-threaded multiplayer server built entirely in pure Rust, paired with a zero-dependency, single-file Vanilla JS frontend. Originally built for local play, it evolved into a robust demonstration of low-level systems programming.
+
+- **Framework-Free Networking:** Custom TCP/WebSocket implementation (RFC 6455) and a zero-allocation JSON builder, operating without heavy frameworks.
+- **Plugin Architecture:** Core server logic (rooms, networking, tickers) is completely decoupled from game rules via a `Game` trait, allowing seamless addition of new games (e.g., Tic-Tac-Toe) without modifying the infrastructure.
+- **Advanced Mechanics:** Features a unique 3-ring board layout, inter-ring gate transitions, dynamic economy, and heuristic-based AI bots with adjustable difficulty levels.
+- **Zero-Dependency Frontend:** A single-file `index.html` client containing all UI logic, procedural SVG rendering, and Web Audio API sound synthesis (no build tools, no external assets).
+
+**Technologies:** Rust (`std` only), WebSockets, Vanilla JavaScript, Web Audio API, SVG.
+
 
 ### Other experiments
 
