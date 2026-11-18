@@ -41,7 +41,7 @@ A web-based tool for learning, visualizing, and procedurally generating fingerin
 
 **Technologies:** HTML, CSS, JavaScript, Web Audio API, SVG.
 
-### Three Rings (Три кольца)
+### Three Rings
 A custom Monopoly-style board game featuring a framework-free, multi-threaded multiplayer server built entirely in pure Rust, paired with a zero-dependency, single-file Vanilla JS frontend. Originally built for local play, it evolved into a robust demonstration of low-level systems programming.
 
 - **Framework-Free Networking:** Custom TCP/WebSocket implementation (RFC 6455) and a zero-allocation JSON builder, operating without heavy frameworks.
